@@ -1,0 +1,22 @@
+# ai.txt – Richtlinien für KI-/LLM-Crawler und -Nutzung
+site: https://www.jutta-nesslauer.de
+contact: mailto:j.nesslauer@hotmail.de
+sitemap: https://www.jutta-nesslauer.de/sitemap.xml
+updated: 2025-12-01
+
+Zugriffs- und Nutzungsrichtlinien
+- Zugriff: Crawler für KI/LLM sind erlaubt. Bitte robots.txt beachten.
+- Nutzung: Nur nicht-kommerzielle Nutzung der Inhalte ist gestattet.
+- Training: Die Verwendung der Inhalte zum (Weiter‑)Training kommerzieller Modelle ist nicht gestattet.
+- Zusammenfassungen/Zitate: Erlaubt mit eindeutiger Quellenangabe und Link:
+  „Quelle: Jutta Neßlauer – https://www.jutta-nesslauer.de“.
+- Speicherung/Weitergabe: Keine Speicherung oder Weitergabe vollständiger Seiten/Inhalte/Bilder. Nur kurze Auszüge.
+- Medien (Bilder/Grafiken): Urheberrechtlich geschützt. Keine Weiterverbreitung oder Bearbeitung ohne schriftliche Erlaubnis.
+- Rate-Limit: Bitte maximal 1 Anfrage pro Sekunde und Lastspitzen vermeiden.
+- Datenschutz: Keine personenbezogenen Daten extrahieren, profilieren oder weitergeben.
+
+Rechtlicher Hinweis
+Diese ai.txt dient der Transparenz. Sie ergänzt, ersetzt aber nicht vertragliche Nutzungsbedingungen oder gesetzliche Regelungen. Bei abweichender Auslegung gilt das deutsche Urheberrecht.
+
+Ausnahmen / Lizenzierung
+Für weitergehende, insbesondere kommerzielle Nutzungen (einschließlich Training), kontaktieren Sie bitte: j.nesslauer@hotmail.de

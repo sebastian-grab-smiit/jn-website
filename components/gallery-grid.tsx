@@ -8,7 +8,7 @@ import { X } from "lucide-react"
 interface GalleryImage {
   gallery: string
   path: string
-  size: string
+  size?: string
 }
 
 interface GalleryGridProps {
@@ -54,9 +54,10 @@ export function GalleryGrid({ images }: GalleryGridProps) {
                 fill
                 className="object-contain"
               />
+              {selectedImage.size && (
               <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/80 to-transparent p-6">
                 <p className="text-white text-center text-lg">{selectedImage.size}</p>
-              </div>
+              </div>)}
             </div>
           )}
         </DialogContent>

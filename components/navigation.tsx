@@ -25,16 +25,30 @@ export function Navigation() {
 
   return (
     <nav className="fixed top-0 left-0 right-0 z-50 bg-background/80 backdrop-blur-sm border-b border-border">
-      <div className="container mx-auto px-4">
-        <div className="flex items-center justify-end h-16">
+      <div className="max-w-6xl mx-auto px-4">
+        <div className="flex items-center justify-between h-16">
+          <Link
+            href="/"
+            aria-label="Startseite"
+            className="text-xl font-serif tracking-wide"
+            style={{ color: "var(--chart-2)" }}
+          >
+            JN
+          </Link>
           {/* Desktop Navigation */}
           <div className="hidden md:flex items-center gap-8">
-            <button
-              onClick={() => scrollToSection("about")}
+            <Link
+              href="/#about"
+              onClick={(e) => {
+                if (pathname === "/") {
+                  e.preventDefault()
+                  scrollToSection("about")
+                }
+              }}
               className="text-sm text-muted-foreground hover:text-foreground transition-colors"
             >
               Über mich
-            </button>
+            </Link>
 
             <div
               className="relative"
@@ -53,25 +67,25 @@ export function Navigation() {
                 <div className="absolute top-full left-0 pt-2">
                   <div className="w-64 bg-background border border-border rounded-md shadow-lg py-2">
                     <Link
-                      href="/galerie/abstrakt-auf-leinwand"
+                      href="/galerie/1/"
                       className="block px-4 py-2 text-sm text-muted-foreground hover:text-foreground hover:bg-accent/50 transition-colors"
                     >
                       Kosmos der Farben
                     </Link>
                     <Link
-                      href="/galerie/abstrakt-auf-papier"
+                      href="/galerie/2/"
                       className="block px-4 py-2 text-sm text-muted-foreground hover:text-foreground hover:bg-accent/50 transition-colors"
                     >
                       Rhythmus der Flächen
                     </Link>
                     <Link
-                      href="/galerie/gegenstande"
+                      href="/galerie/3/"
                       className="block px-4 py-2 text-sm text-muted-foreground hover:text-foreground hover:bg-accent/50 transition-colors"
                     >
                       Balance der Ruhe
                     </Link>
                     <Link
-                      href="/galerie/zeichnungen"
+                      href="/galerie/4/"
                       className="block px-4 py-2 text-sm text-muted-foreground hover:text-foreground hover:bg-accent/50 transition-colors"
                     >
                       Metallische Eleganz
@@ -92,12 +106,18 @@ export function Navigation() {
               Zeichnungen
             </Link>
 
-            <button
-              onClick={() => scrollToSection("contact")}
+            <Link
+              href="/#contact"
+              onClick={(e) => {
+                if (pathname === "/") {
+                  e.preventDefault()
+                  scrollToSection("contact")
+                }
+              }}
               className="text-sm text-muted-foreground hover:text-foreground transition-colors"
             >
               Kontakt
-            </button>
+            </Link>
           </div>
 
           {/* Mobile Menu Button */}
@@ -109,12 +129,19 @@ export function Navigation() {
         {/* Mobile Navigation */}
         {isOpen && (
           <div className="md:hidden py-4 space-y-2">
-            <button
-              onClick={() => scrollToSection("about")}
+            <Link
+              href="/#about"
+              onClick={(e) => {
+                if (pathname === "/") {
+                  e.preventDefault()
+                  scrollToSection("about")
+                }
+                setIsOpen(false)
+              }}
               className="block w-full text-left px-4 py-2 text-sm text-muted-foreground hover:text-foreground hover:bg-accent/50 rounded transition-colors"
             >
               Über mich
-            </button>
+            </Link>
 
             <div>
               <button
@@ -134,28 +161,28 @@ export function Navigation() {
                     Übersicht
                   </Link>
                   <Link
-                    href="/galerie/abstrakt-auf-leinwand"
+                    href="/galerie/1"
                     onClick={() => setIsOpen(false)}
                     className="block px-4 py-2 text-sm text-muted-foreground hover:text-foreground hover:bg-accent/50 rounded transition-colors"
                   >
                     Kosmos der Farben
                   </Link>
                   <Link
-                    href="/galerie/abstrakt-auf-papier"
+                    href="/galerie/2"
                     onClick={() => setIsOpen(false)}
                     className="block px-4 py-2 text-sm text-muted-foreground hover:text-foreground hover:bg-accent/50 rounded transition-colors"
                   >
                     Rhythmus der Flächen
                   </Link>
                   <Link
-                    href="/galerie/gegenstande"
+                    href="/galerie/3"
                     onClick={() => setIsOpen(false)}
                     className="block px-4 py-2 text-sm text-muted-foreground hover:text-foreground hover:bg-accent/50 rounded transition-colors"
                   >
                     Balance der Ruhe
                   </Link>
                   <Link
-                    href="/galerie/zeichnungen"
+                    href="/galerie/4"
                     onClick={() => setIsOpen(false)}
                     className="block px-4 py-2 text-sm text-muted-foreground hover:text-foreground hover:bg-accent/50 rounded transition-colors"
                   >
@@ -181,12 +208,19 @@ export function Navigation() {
               Zeichnungen
             </Link>
 
-            <button
-              onClick={() => scrollToSection("contact")}
+            <Link
+              href="/#contact"
+              onClick={(e) => {
+                if (pathname === "/") {
+                  e.preventDefault()
+                  scrollToSection("contact")
+                }
+                setIsOpen(false)
+              }}
               className="block w-full text-left px-4 py-2 text-sm text-muted-foreground hover:text-foreground hover:bg-accent/50 rounded transition-colors"
             >
               Kontakt
-            </button>
+            </Link>
           </div>
         )}
       </div>

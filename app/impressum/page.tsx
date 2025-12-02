@@ -12,14 +12,7 @@ export default function ImpressumPage() {
     <>
       <Navigation />
       <main className="min-h-screen pt-24 pb-16">
-        <div className="container mx-auto px-4 max-w-3xl">
-          <Link
-            href="/"
-            className="inline-flex items-center gap-2 text-muted-foreground hover:text-foreground transition-colors mb-8"
-          >
-            <ChevronLeft className="h-4 w-4" />
-            Zurück zur Startseite
-          </Link>
+        <div className="container mx-auto px-4 max-w-4xl">
 
           <h1 className="text-4xl md:text-5xl font-serif text-foreground mb-12">Impressum</h1>
 

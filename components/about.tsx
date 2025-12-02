@@ -2,7 +2,7 @@ import Image from "next/image"
 
 export function About() {
   return (
-    <section id="about" className="py-20 md:py-32 bg-background">
+    <section id="about" className="py-20 md:py-36 bg-background">
       <div className="container mx-auto px-4">
         <div className="grid md:grid-cols-2 gap-12 md:gap-16 items-center max-w-6xl mx-auto">
           <div className="space-y-6">
@@ -30,7 +30,7 @@ export function About() {
           </div>
 
           <div className="relative aspect-[3/4] md:aspect-square overflow-hidden rounded-lg">
-            <Image src="/female-artist-studio-portrait.png" alt="Jutta Neßlauer" fill className="object-cover" />
+            <Image src="/Jutta_Profilbild.png" alt="Jutta Neßlauer" fill className="object-cover" />
           </div>
         </div>
       </div>

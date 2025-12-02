@@ -1,7 +1,34 @@
+import type { Metadata } from "next"
 import { Navigation } from "@/components/navigation"
 import { galleryCategories, galleryImages } from "@/lib/gallery-data"
 import Link from "next/link"
 import Image from "next/image"
+
+export const metadata: Metadata = {
+  title: "Galerie",
+  description:
+    "Entdecken Sie verschiedene Werkserien. Jede Galerie zeigt eine einzigartige künstlerische Ausdrucksform und Technik.",
+  alternates: {
+    canonical: "/galerie/",
+  },
+  openGraph: {
+    type: "website",
+    locale: "de_DE",
+    url: "/galerie/",
+    siteName: "Jutta Neßlauer",
+    title: "Galerie",
+    description:
+      "Entdecken Sie verschiedene Werkserien. Jede Galerie zeigt eine einzigartige künstlerische Ausdrucksform und Technik.",
+    images: ["/assets/gallery1/Bild1.png"],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Galerie",
+    description:
+      "Entdecken Sie verschiedene Werkserien. Jede Galerie zeigt eine einzigartige künstlerische Ausdrucksform und Technik.",
+    images: ["/assets/gallery1/Bild1.png"],
+  },
+}
 
 export default function GalleryOverview() {
   return (
@@ -18,14 +45,15 @@ export default function GalleryOverview() {
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-6xl mx-auto">
             {galleryCategories
-              .filter((category) => category.id !== "zeichnungen-page")
+              .filter((c) => c.id !== "zeichnungen-page")
+              .slice(0, 4)
               .map((category) => {
                 const previewImages = galleryImages.filter((img) => img.gallery === category.id).slice(0, 3)
 
                 return (
                   <Link
                     key={category.id}
-                    href={`/galerie/${category.id}`}
+                    href={`/galerie/${category.id}/`}
                     className="group block bg-accent/30 rounded-lg overflow-hidden hover:shadow-xl transition-shadow"
                   >
                     <div className="grid grid-cols-3 gap-1 h-64">
@@ -42,11 +70,11 @@ export default function GalleryOverview() {
                     </div>
 
                     <div className="p-6">
-                      <h2 className="text-2xl font-serif text-foreground mb-2 group-hover:text-accent-foreground transition-colors">
+                      <h2 className="text-2xl font-serif text-foreground mb-2 transition-colors">
                         {category.title}
                       </h2>
                       <p className="text-muted-foreground leading-relaxed">{category.description}</p>
-                      <p className="mt-4 text-sm text-accent-foreground font-medium">Zur Galerie →</p>
+                      <p className="mt-4 text-sm text-muted-foreground font-medium">Zur Galerie →</p>
                     </div>
                   </Link>
                 )
