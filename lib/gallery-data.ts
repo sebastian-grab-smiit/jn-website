@@ -458,367 +458,367 @@ export const galleryImages = [
 export const driftwoodImages = [
   {
     gallery: "schwemmholz",
-    path: "/assets/figures/schwemmholz1.png", 
+    path: "/assets/figures/Schwemmholz1.png", 
   },
   {
     gallery: "schwemmholz",
-    path: "/assets/figures/schwemmholz2.png", 
+    path: "/assets/figures/Schwemmholz2.png", 
   },
   {
     gallery: "schwemmholz",
-    path: "/assets/figures/schwemmholz3.png", 
+    path: "/assets/figures/Schwemmholz3.png", 
   },
   {
     gallery: "schwemmholz",
-    path: "/assets/figures/schwemmholz4.png", 
+    path: "/assets/figures/Schwemmholz4.png", 
   },
   {
     gallery: "schwemmholz",
-    path: "/assets/figures/schwemmholz5.png", 
+    path: "/assets/figures/Schwemmholz5.png", 
   },
   {
     gallery: "schwemmholz",
-    path: "/assets/figures/schwemmholz6.png", 
+    path: "/assets/figures/Schwemmholz6.png", 
   },
   {
     gallery: "schwemmholz",
-    path: "/assets/figures/schwemmholz7.png", 
+    path: "/assets/figures/Schwemmholz7.png", 
   },
   {
     gallery: "schwemmholz",
-    path: "/assets/figures/schwemmholz8.png", 
+    path: "/assets/figures/Schwemmholz8.png", 
   },
   {
     gallery: "schwemmholz",
-    path: "/assets/figures/schwemmholz9.png", 
+    path: "/assets/figures/Schwemmholz9.png", 
   },
   {
     gallery: "schwemmholz",
-    path: "/assets/figures/schwemmholz10.png", 
+    path: "/assets/figures/Schwemmholz10.png", 
   },
   {
     gallery: "schwemmholz",
-    path: "/assets/figures/schwemmholz11.png", 
+    path: "/assets/figures/Schwemmholz11.png", 
   },
   {
     gallery: "schwemmholz",
-    path: "/assets/figures/schwemmholz12.png", 
+    path: "/assets/figures/Schwemmholz12.png", 
   },
   {
     gallery: "schwemmholz",
-    path: "/assets/figures/schwemmholz13.png", 
+    path: "/assets/figures/Schwemmholz13.png", 
   },
   {
     gallery: "schwemmholz",
-    path: "/assets/figures/schwemmholz14.png", 
+    path: "/assets/figures/Schwemmholz14.png", 
   },
   {
     gallery: "schwemmholz",
-    path: "/assets/figures/schwemmholz15.png", 
+    path: "/assets/figures/Schwemmholz15.png", 
   },
   {
     gallery: "schwemmholz",
-    path: "/assets/figures/schwemmholz16.png", 
+    path: "/assets/figures/Schwemmholz16.png", 
   },
   {
     gallery: "schwemmholz",
-    path: "/assets/figures/schwemmholz17.png", 
+    path: "/assets/figures/Schwemmholz17.png", 
   },
   {
     gallery: "schwemmholz",
-    path: "/assets/figures/schwemmholz18.png", 
+    path: "/assets/figures/Schwemmholz18.png", 
   },
   {
     gallery: "schwemmholz",
-    path: "/assets/figures/schwemmholz19.png", 
+    path: "/assets/figures/Schwemmholz19.png", 
   },
   {
     gallery: "schwemmholz",
-    path: "/assets/figures/schwemmholz20.png", 
+    path: "/assets/figures/Schwemmholz20.png", 
   },
   {
     gallery: "schwemmholz",
-    path: "/assets/figures/schwemmholz22.png", 
+    path: "/assets/figures/Schwemmholz22.png", 
   },
   {
     gallery: "schwemmholz",
-    path: "/assets/figures/schwemmholz23.png", 
+    path: "/assets/figures/Schwemmholz23.png", 
   },
   {
     gallery: "schwemmholz",
-    path: "/assets/figures/schwemmholz24.png", 
+    path: "/assets/figures/Schwemmholz24.png", 
   },
   {
     gallery: "schwemmholz",
-    path: "/assets/figures/schwemmholz25.png", 
+    path: "/assets/figures/Schwemmholz25.png", 
   },
   {
     gallery: "schwemmholz",
-    path: "/assets/figures/schwemmholz26.png", 
+    path: "/assets/figures/Schwemmholz26.png", 
   },
   {
     gallery: "schwemmholz",
-    path: "/assets/figures/schwemmholz27.png", 
+    path: "/assets/figures/Schwemmholz27.png", 
   },
   {
     gallery: "schwemmholz",
-    path: "/assets/figures/schwemmholz28.png", 
+    path: "/assets/figures/Schwemmholz28.png", 
   },
   {
     gallery: "schwemmholz",
-    path: "/assets/figures/schwemmholz29.png", 
+    path: "/assets/figures/Schwemmholz29.png", 
   },
   {
     gallery: "schwemmholz",
-    path: "/assets/figures/schwemmholz30.png", 
+    path: "/assets/figures/Schwemmholz30.png", 
   },
   {
     gallery: "schwemmholz",
-    path: "/assets/figures/schwemmholz31.png", 
+    path: "/assets/figures/Schwemmholz31.png", 
   },
   {
     gallery: "schwemmholz",
-    path: "/assets/figures/schwemmholz32.png", 
+    path: "/assets/figures/Schwemmholz32.png", 
   },
   {
     gallery: "schwemmholz",
-    path: "/assets/figures/schwemmholz33.png", 
+    path: "/assets/figures/Schwemmholz33.png", 
   },
   {
     gallery: "schwemmholz",
-    path: "/assets/figures/schwemmholz34.png", 
+    path: "/assets/figures/Schwemmholz34.png", 
   },
   {
     gallery: "schwemmholz",
-    path: "/assets/figures/schwemmholz35.png", 
+    path: "/assets/figures/Schwemmholz35.png", 
   },
   {
     gallery: "schwemmholz",
-    path: "/assets/figures/schwemmholz36.png", 
+    path: "/assets/figures/Schwemmholz36.png", 
   },
   {
     gallery: "schwemmholz",
-    path: "/assets/figures/schwemmholz37.png", 
+    path: "/assets/figures/Schwemmholz37.png", 
   },
   {
     gallery: "schwemmholz",
-    path: "/assets/figures/schwemmholz38.png", 
+    path: "/assets/figures/Schwemmholz38.png", 
   },
   {
     gallery: "schwemmholz",
-    path: "/assets/figures/schwemmholz39.png", 
+    path: "/assets/figures/Schwemmholz39.png", 
   },
   {
     gallery: "schwemmholz",
-    path: "/assets/figures/schwemmholz40.png", 
+    path: "/assets/figures/Schwemmholz40.png", 
   },
   {
     gallery: "schwemmholz",
-    path: "/assets/figures/schwemmholz41.png", 
+    path: "/assets/figures/Schwemmholz41.png", 
   },
   {
     gallery: "schwemmholz",
-    path: "/assets/figures/schwemmholz42.png", 
+    path: "/assets/figures/Schwemmholz42.png", 
   },
   {
     gallery: "schwemmholz",
-    path: "/assets/figures/schwemmholz43.png", 
+    path: "/assets/figures/Schwemmholz43.png", 
   },
   {
     gallery: "schwemmholz",
-    path: "/assets/figures/schwemmholz44.png", 
+    path: "/assets/figures/Schwemmholz44.png", 
   },
   {
     gallery: "schwemmholz",
-    path: "/assets/figures/schwemmholz45.png", 
+    path: "/assets/figures/Schwemmholz45.png", 
   },
   {
     gallery: "schwemmholz",
-    path: "/assets/figures/schwemmholz46.png", 
+    path: "/assets/figures/Schwemmholz46.png", 
   },
   {
     gallery: "schwemmholz",
-    path: "/assets/figures/schwemmholz47.png", 
+    path: "/assets/figures/Schwemmholz47.png", 
   },
   {
     gallery: "schwemmholz",
-    path: "/assets/figures/schwemmholz48.png", 
+    path: "/assets/figures/Schwemmholz48.png", 
   },
   {
     gallery: "schwemmholz",
-    path: "/assets/figures/schwemmholz49.png", 
+    path: "/assets/figures/Schwemmholz49.png", 
   },
   {
     gallery: "schwemmholz",
-    path: "/assets/figures/schwemmholz50.png", 
+    path: "/assets/figures/Schwemmholz50.png", 
   },
   {
     gallery: "schwemmholz",
-    path: "/assets/figures/schwemmholz51.png", 
+    path: "/assets/figures/Schwemmholz51.png", 
   },
   {
     gallery: "schwemmholz",
-    path: "/assets/figures/schwemmholz52.png", 
+    path: "/assets/figures/Schwemmholz52.png", 
   },
   {
     gallery: "schwemmholz",
-    path: "/assets/figures/schwemmholz53.png", 
+    path: "/assets/figures/Schwemmholz53.png", 
   },
   {
     gallery: "schwemmholz",
-    path: "/assets/figures/schwemmholz54.png", 
+    path: "/assets/figures/Schwemmholz54.png", 
   },
   {
     gallery: "schwemmholz",
-    path: "/assets/figures/schwemmholz55.png", 
+    path: "/assets/figures/Schwemmholz55.png", 
   },
   {
     gallery: "schwemmholz",
-    path: "/assets/figures/schwemmholz56.png", 
+    path: "/assets/figures/Schwemmholz56.png", 
   },
   {
     gallery: "schwemmholz",
-    path: "/assets/figures/schwemmholz57.png", 
+    path: "/assets/figures/Schwemmholz57.png", 
   },
   {
     gallery: "schwemmholz",
-    path: "/assets/figures/schwemmholz58.png", 
+    path: "/assets/figures/Schwemmholz58.png", 
   },
   {
     gallery: "schwemmholz",
-    path: "/assets/figures/schwemmholz59.png", 
+    path: "/assets/figures/Schwemmholz59.png", 
   },
   {
     gallery: "schwemmholz",
-    path: "/assets/figures/schwemmholz60.png", 
+    path: "/assets/figures/Schwemmholz60.png", 
   },
   {
     gallery: "schwemmholz",
-    path: "/assets/figures/schwemmholz61.png", 
+    path: "/assets/figures/Schwemmholz61.png", 
   },
   {
     gallery: "schwemmholz",
-    path: "/assets/figures/schwemmholz62.png", 
+    path: "/assets/figures/Schwemmholz62.png", 
   },
   {
     gallery: "schwemmholz",
-    path: "/assets/figures/schwemmholz63.png", 
+    path: "/assets/figures/Schwemmholz63.png", 
   },
   {
     gallery: "schwemmholz",
-    path: "/assets/figures/schwemmholz64.png", 
+    path: "/assets/figures/Schwemmholz64.png", 
   },
   {
     gallery: "schwemmholz",
-    path: "/assets/figures/schwemmholz65.png", 
+    path: "/assets/figures/Schwemmholz65.png", 
   },
   {
     gallery: "schwemmholz",
-    path: "/assets/figures/schwemmholz66.png", 
+    path: "/assets/figures/Schwemmholz66.png", 
   },
   {
     gallery: "schwemmholz",
-    path: "/assets/figures/schwemmholz67.png", 
+    path: "/assets/figures/Schwemmholz67.png", 
   },
   {
     gallery: "schwemmholz",
-    path: "/assets/figures/schwemmholz68.png", 
+    path: "/assets/figures/Schwemmholz68.png", 
   },
   {
     gallery: "schwemmholz",
-    path: "/assets/figures/schwemmholz69.png", 
+    path: "/assets/figures/Schwemmholz69.png", 
   },
   {
     gallery: "schwemmholz",
-    path: "/assets/figures/schwemmholz70.png", 
+    path: "/assets/figures/Schwemmholz70.png", 
   },
   {
     gallery: "schwemmholz",
-    path: "/assets/figures/schwemmholz71.png", 
+    path: "/assets/figures/Schwemmholz71.png", 
   },
   {
     gallery: "schwemmholz",
-    path: "/assets/figures/schwemmholz72.png", 
+    path: "/assets/figures/Schwemmholz72.png", 
   },
   {
     gallery: "schwemmholz",
-    path: "/assets/figures/schwemmholz73.png", 
+    path: "/assets/figures/Schwemmholz73.png", 
   },
   {
     gallery: "schwemmholz",
-    path: "/assets/figures/schwemmholz74.png", 
+    path: "/assets/figures/Schwemmholz74.png", 
   },
   {
     gallery: "schwemmholz",
-    path: "/assets/figures/schwemmholz75.png", 
+    path: "/assets/figures/Schwemmholz75.png", 
   },
   {
     gallery: "schwemmholz",
-    path: "/assets/figures/schwemmholz76.png", 
+    path: "/assets/figures/Schwemmholz76.png", 
   },
   {
     gallery: "schwemmholz",
-    path: "/assets/figures/schwemmholz77.png", 
+    path: "/assets/figures/Schwemmholz77.png", 
   },
   {
     gallery: "schwemmholz",
-    path: "/assets/figures/schwemmholz78.png", 
+    path: "/assets/figures/Schwemmholz78.png", 
   },
   {
     gallery: "schwemmholz",
-    path: "/assets/figures/schwemmholz79.png", 
+    path: "/assets/figures/Schwemmholz79.png", 
   },
   {
     gallery: "schwemmholz",
-    path: "/assets/figures/schwemmholz80.png", 
+    path: "/assets/figures/Schwemmholz80.png", 
   },
   {
     gallery: "schwemmholz",
-    path: "/assets/figures/schwemmholz81.png", 
+    path: "/assets/figures/Schwemmholz81.png", 
   },
   {
     gallery: "schwemmholz",
-    path: "/assets/figures/schwemmholz82.png", 
+    path: "/assets/figures/Schwemmholz82.png", 
   },
   {
     gallery: "schwemmholz",
-    path: "/assets/figures/schwemmholz83.png", 
+    path: "/assets/figures/Schwemmholz83.png", 
   },
   {
     gallery: "schwemmholz",
-    path: "/assets/figures/schwemmholz84.png", 
+    path: "/assets/figures/Schwemmholz84.png", 
   },
   {
     gallery: "schwemmholz",
-    path: "/assets/figures/schwemmholz85.png", 
+    path: "/assets/figures/Schwemmholz85.png", 
   },
   {
     gallery: "schwemmholz",
-    path: "/assets/figures/schwemmholz86.png", 
+    path: "/assets/figures/Schwemmholz86.png", 
   },
   {
     gallery: "schwemmholz",
-    path: "/assets/figures/schwemmholz87.png", 
+    path: "/assets/figures/Schwemmholz87.png", 
   },
   {
     gallery: "schwemmholz",
-    path: "/assets/figures/schwemmholz88.png", 
+    path: "/assets/figures/Schwemmholz88.png", 
   },
   {
     gallery: "schwemmholz",
-    path: "/assets/figures/schwemmholz89.png", 
+    path: "/assets/figures/Schwemmholz89.png", 
   },
   {
     gallery: "schwemmholz",
-    path: "/assets/figures/schwemmholz90.png", 
+    path: "/assets/figures/Schwemmholz90.png", 
   },
   {
     gallery: "schwemmholz",
-    path: "/assets/figures/schwemmholz91.png", 
+    path: "/assets/figures/Schwemmholz91.png", 
   },
   {
     gallery: "schwemmholz",
-    path: "/assets/figures/schwemmholz92.png", 
+    path: "/assets/figures/Schwemmholz92.png", 
   },
 ]
 
