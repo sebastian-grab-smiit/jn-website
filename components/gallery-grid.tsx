@@ -3,7 +3,7 @@
 import Image from "next/image"
 import { useState, useEffect, useCallback } from "react"
 import { Dialog, DialogContent, DialogTitle } from "@/components/ui/dialog"
-import { X, ChevronLeft, ChevronRight } from "lucide-react"
+import { ChevronLeft, ChevronRight } from "lucide-react"
 
 interface GalleryImage {
   gallery: string
@@ -73,16 +73,10 @@ export function GalleryGrid({ images }: GalleryGridProps) {
 
       {/* Lightbox Dialog */}
       <Dialog open={selectedIndex !== null} onOpenChange={() => setSelectedIndex(null)}>
-        <DialogContent className="max-w-4xl p-0 bg-black/95 border-none">
+        <DialogContent className="max-w-4xl p-0 bg-white border-none">
           <DialogTitle className="sr-only">
             {currentImage?.size ? `Bild ${currentImage.size}` : "Bildansicht"}
           </DialogTitle>
-          <button
-            onClick={() => setSelectedIndex(null)}
-            className="absolute right-4 top-4 z-50 rounded-full bg-black/50 p-2 text-white hover:bg-black/70 transition-colors"
-          >
-            <X className="h-5 w-5" />
-          </button>
           {currentImage && (
             <div className="relative w-full h-[80vh]">
               <Image

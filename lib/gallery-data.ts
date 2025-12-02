@@ -458,7 +458,7 @@ export const galleryImages = [
 export const driftwoodImages = [
   {
     gallery: "schwemmholz",
-    path: "/assets/figures/Schwemmholz1.png", 
+    path: "/assets/figures/schwemmholz1.png", 
   },
   {
     gallery: "schwemmholz",
