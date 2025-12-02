@@ -50,7 +50,7 @@ export function Contact() {
   return (
     <section id="contact" className="pt-20 md:pt-32 pb-8 md:pb-12 bg-accent/30">
       <div className="container mx-auto px-4">
-        <div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-12 md:gap-16 items-start">
+        <div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-12 md:gap-16 items-start mb-14">
           <div className="md:text-left text-center">
             <h2 className="text-3xl md:text-4xl font-serif text-foreground mb-8">Kontakt</h2>
             <p className="text-muted-foreground mb-12 leading-relaxed">
@@ -108,24 +108,6 @@ export function Contact() {
           </form>
         </div>
 
-        <div className="mt-16 w-screen border-t border-border relative left-1/2 -translate-x-1/2" />
-        <div className="pt-8 space-y-4 text-center">
-          <div className="flex items-center justify-center gap-6 text-sm">
-            <Link
-              href="/impressum"
-              className="text-muted-foreground hover:text-foreground transition-colors underline-offset-4 hover:underline"
-            >
-              Impressum
-            </Link>
-            <Link
-              href="/datenschutz"
-              className="text-muted-foreground hover:text-foreground transition-colors underline-offset-4 hover:underline"
-            >
-              Datenschutzerklärung
-            </Link>
-          </div>
-          <p className="text-sm text-muted-foreground">© 2026 Jutta Neßlauer. Alle Rechte vorbehalten.</p>
-        </div>
       </div>
     </section>
   )

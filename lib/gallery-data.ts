@@ -835,31 +835,31 @@ export const galleryCategories = [
   {
     id: "1",
     title: "Kosmos der Farben",
-    description: "Abstrakte Acrylmalerei auf Leinwand mit Steinmehlen und natürlichen Pigmenten",
+    description: "Abstrakte Acrylmalerei auf Leinwand mit Steinmehlen und natürlichen Pigmenten.",
   },
   {
     id: "2",
     title: "Rhythmus der Flächen",
-    description: "Abstrakte Acrylmalerei auf Leinwand in ruhigerem Stil",
+    description: "Abstrakte Acrylmalerei auf Leinwand in ruhigerem Stil.",
   },
   {
     id: "3",
     title: "Balance der Ruhe",
-    description: "Abstrakte Acrylmalerei auf Leinwand in ruhigem Stil mit geringerer Farbpalette",
+    description: "Abstrakte Acrylmalerei auf Leinwand in ruhigem Stil mit geringerer Farbpalette.",
   },
   {
     id: "4",
     title: "Eleganz der Metalle",
-    description: "Abstrakte Malerei trifft auf Gold, Silber und Rost",
+    description: "Abstrakte Malerei trifft auf Gold, Silber und Rost.",
   },
   {
     id: "schwemmholz",
     title: "Schwemmholzfiguren",
-    description: "Gebsatelte Figuren aus Schwemmholz, Blattgold und individuellen Accessoires",
+    description: "Gebsatelte Figuren aus Schwemmholz, Blattgold und individuellen Accessoires.",
   },
   {
     id: "zeichnungen",
     title: "Zeichnungen",
-    description: "Kreative Zeichnungen auf verschiedenen Medien",
+    description: "Kreative Zeichnungen auf verschiedenen Medien.",
   },
 ]
