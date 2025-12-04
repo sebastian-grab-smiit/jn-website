@@ -426,7 +426,7 @@ export const galleryImages = [
     size: "80 x 80 cm",
   },
 
-  // Metallische Eleganz
+  // Elleganz der Metalle
   {
     gallery: "4",
     path: "/assets/gallery4/Bild1.png",

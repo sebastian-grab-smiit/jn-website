@@ -88,7 +88,7 @@ export function Navigation() {
                       href="/galerie/4/"
                       className="block px-4 py-2 text-sm text-muted-foreground hover:text-foreground hover:bg-accent/50 transition-colors"
                     >
-                      Metallische Eleganz
+                      Elleganz der Metalle
                     </Link>
                   </div>
                 </div>
@@ -186,7 +186,7 @@ export function Navigation() {
                     onClick={() => setIsOpen(false)}
                     className="block px-4 py-2 text-sm text-muted-foreground hover:text-foreground hover:bg-accent/50 rounded transition-colors"
                   >
-                    Metallische Eleganz
+                    Elleganz der Metalle
                   </Link>
                 </div>
               )}
