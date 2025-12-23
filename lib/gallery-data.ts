@@ -825,8 +825,43 @@ export const driftwoodImages = [
 export const drawingImages = [
   {
     gallery: "zeichnungen",
-    path: "/assets/gallery1/Bild1.png",
-    size: "42 x 30 cm",
+    path: "/assets/grawings/1_AlteDame.jpeg",
+  },
+  {
+    gallery: "zeichnungen",
+    path: "/assets/grawings/2_Jung_alt.jpeg",
+  },
+  {
+    gallery: "zeichnungen",
+    path: "/assets/grawings/3_Jung_alt.jpeg",
+  },
+  {
+    gallery: "zeichnungen",
+    path: "/assets/grawings/4_Glasfrau.jpeg",
+  },
+  {
+    gallery: "zeichnungen",
+    path: "/assets/grawings/5_Diamant.jpeg",
+  },
+  {
+    gallery: "zeichnungen",
+    path: "/assets/grawings/6_Krake.jpeg",
+  },
+  {
+    gallery: "zeichnungen",
+    path: "/assets/grawings/7_Krake_dunkel.jpeg",
+  },
+  {
+    gallery: "zeichnungen",
+    path: "/assets/grawings/8_Krake_hell.jpeg",
+  },
+  {
+    gallery: "zeichnungen",
+    path: "/assets/grawings/9_Schlangenauge.jpeg",
+  },
+  {
+    gallery: "zeichnungen",
+    path: "/assets/grawings/10_Libelle.jpeg",
   },
 ]
 
