@@ -825,43 +825,43 @@ export const driftwoodImages = [
 export const drawingImages = [
   {
     gallery: "zeichnungen",
-    path: "/assets/grawings/1_AlteDame.jpeg",
+    path: "/assets/drawings/1_AlteDame.jpeg",
   },
   {
     gallery: "zeichnungen",
-    path: "/assets/grawings/2_Jung_alt.jpeg",
+    path: "/assets/drawings/2_Jung_alt.jpeg",
   },
   {
     gallery: "zeichnungen",
-    path: "/assets/grawings/3_Jung_alt.jpeg",
+    path: "/assets/drawings/3_Jung_alt.jpeg",
   },
   {
     gallery: "zeichnungen",
-    path: "/assets/grawings/4_Glasfrau.jpeg",
+    path: "/assets/drawings/4_Glasfrau.jpeg",
   },
   {
     gallery: "zeichnungen",
-    path: "/assets/grawings/5_Diamant.jpeg",
+    path: "/assets/drawings/5_Diamant.jpeg",
   },
   {
     gallery: "zeichnungen",
-    path: "/assets/grawings/6_Krake.jpeg",
+    path: "/assets/drawings/6_Krake.jpeg",
   },
   {
     gallery: "zeichnungen",
-    path: "/assets/grawings/7_Krake_dunkel.jpeg",
+    path: "/assets/drawings/7_Krake_dunkel.jpeg",
   },
   {
     gallery: "zeichnungen",
-    path: "/assets/grawings/8_Krake_hell.jpeg",
+    path: "/assets/drawings/8_Krake_hell.jpeg",
   },
   {
     gallery: "zeichnungen",
-    path: "/assets/grawings/9_Schlangenauge.jpeg",
+    path: "/assets/drawings/9_Schlangenauge.jpeg",
   },
   {
     gallery: "zeichnungen",
-    path: "/assets/grawings/10_Libelle.jpeg",
+    path: "/assets/drawings/10_Libelle.jpeg",
   },
 ]
 
