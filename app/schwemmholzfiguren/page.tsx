@@ -15,9 +15,7 @@ export default function DriftwoodPage() {
           <h1 className="text-4xl md:text-5xl font-serif text-foreground mb-6">Schwemmholzfiguren</h1>
           <p className="text-muted-foreground mb-12 leading-relaxed">
             Neben der Malerei gestalte ich auch skulpturale Werke aus Schwemmholz. Jedes Stück Holz erzählt seine eigene
-            Geschichte und wird von mir zu ausdrucksstarken Figuren geformt. Die natürlichen Formen und Strukturen des
-            vom Wasser geformten Holzes inspirieren mich zu organischen Skulpturen, die die Verbindung zwischen Natur
-            und künstlerischer Gestaltung verkörpern.
+            Geschichte und wird von mir zu ausdrucksstarken Figuren geformt.
           </p>
 
           <GalleryGrid images={driftwoodImages} />

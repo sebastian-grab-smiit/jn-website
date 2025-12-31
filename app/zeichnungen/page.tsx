@@ -16,7 +16,7 @@ export default function DrawingsPage() {
           <p className="text-muted-foreground mb-12 leading-relaxed">
             Im Folgenden finden Sie eine Sammlung von Zeichnungen meiner Tochter Muriel Neßlauer. Von detaillierten
             Bleistiftzeichnungen bis hin zu expressiven Kohlezeichnungen zeigen diese Werke die Auseinandersetzung
-            meiner Tochter mit Form, Linie und Schattierung.
+            mit Form, Linie und Schattierung.
           </p>
 
           <GalleryGrid images={drawingImages} />

@@ -870,17 +870,17 @@ export const galleryCategories = [
   {
     id: "1",
     title: "Kosmos der Farben",
-    description: "Abstrakte Acrylmalerei auf Leinwand mit Steinmehlen und natürlichen Pigmenten.",
+    description: "Abstrakte Acrylmalerei auf Leinwand mit Grundierungen aus Steinmehlen.",
   },
   {
     id: "2",
     title: "Rhythmus der Flächen",
-    description: "Abstrakte Acrylmalerei auf Leinwand in ruhigerem Stil.",
+    description: "Abstrakte, flächige Acrylmalerei auf Leinwand.",
   },
   {
     id: "3",
     title: "Balance der Ruhe",
-    description: "Abstrakte Acrylmalerei auf Leinwand in ruhigem Stil mit geringerer Farbpalette.",
+    description: "Abstrakte Acrylmalerei auf Leinwand mit geringerer Farbpalette.",
   },
   {
     id: "4",
@@ -890,7 +890,7 @@ export const galleryCategories = [
   {
     id: "schwemmholz",
     title: "Schwemmholzfiguren",
-    description: "Gebsatelte Figuren aus Schwemmholz, Blattgold und individuellen Accessoires.",
+    description: "Gebastelte Figuren aus Schwemmholz, Blattgold und individuellen Accessoires.",
   },
   {
     id: "zeichnungen",

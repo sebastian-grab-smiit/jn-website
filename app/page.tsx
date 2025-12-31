@@ -9,7 +9,7 @@ export default function Home() {
     <main className="min-h-screen">
       <Navigation />
       <About />
-      <Technique />
+      {/* <Technique /> */}
       <Vita />
       <Contact />
     </main>
