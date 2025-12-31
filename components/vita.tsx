@@ -40,7 +40,7 @@ export function Vita() {
   ]
 
   return (
-    <section id="vita" className="py-5 md:py-8 bg-background">
+    <section id="vita" className="py-5 md:py-2 bg-background mb-10">
       <div className="container mx-auto px-4">
         <div className="max-w-4xl mx-auto">
           <h2 className="text-3xl md:text-4xl font-serif text-foreground mb-12">Vita</h2>

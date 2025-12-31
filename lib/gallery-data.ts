@@ -360,11 +360,11 @@ export const galleryImages = [
     path: "/assets/gallery3/Bild11.png",
     size: "80 x 100 cm",
   },
-  {
-    gallery: "3",
-    path: "/assets/gallery3/Bild12.png",
-    size: "80 x 100 cm",
-  },
+  // {
+  //   gallery: "3",
+  //   path: "/assets/gallery3/Bild12.png",
+  //   size: "80 x 100 cm",
+  // },
   {
     gallery: "3",
     path: "/assets/gallery3/Bild13.png",
